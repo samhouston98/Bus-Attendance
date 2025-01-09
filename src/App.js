@@ -24,8 +24,8 @@ const App = () => {
       date: 'January 8, 2025',
       opponent: 'Dundee United',
       result: 'Won 2-0',
-      attendees: ['Ben', 'Calum', 'Greg', 'Liam', 'Paddy', 'Sam', 'John'],
-      missed: ['Conor', 'Simon'],
+      attendees: ['Ben', 'Calum', 'Liam', 'Paddy', 'Sam', 'John'],
+      missed: ['Conor', 'Greg', 'Simon'],
       notes: 'Cold',
     },
   ];
