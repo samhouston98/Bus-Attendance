@@ -4,12 +4,15 @@ import {
   ArcElement,
   Tooltip,
   Legend,
+  BarElement,
+  CategoryScale,
+  LinearScale,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 import { Pie } from 'react-chartjs-2';
 
-// Register required components
-ChartJS.register(ArcElement, Tooltip, Legend);
+// Register required components for both charts
+ChartJS.register(ArcElement, Tooltip, Legend, BarElement, CategoryScale, LinearScale);
 
 const Stats = ({ pastGames }) => {
   const games = pastGames || [];
