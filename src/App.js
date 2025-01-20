@@ -35,17 +35,12 @@ const App = () => {
       result: 'Won 2-1',
       attendees: ['Ben', 'Calum', 'Liam', 'Paddy', 'Sam', 'John', 'Conor', 'Greg'],
       missed: ['Simon'],
-      notes: 'Cold',
+      notes: 'Dry Jan gimps',
     },
   ];
 
   const futureGames = [
-    {
-      id: 1,
-      date: '2025-01-14 17:30', // Tomorrow evening in the correct format
-      opponent: 'Kilmarnock',
-      details: 'Scottish Cup - 4th Round, Kick-off 17:30',
-    },
+  
     {
       id: 2,
       date: '2025-01-22 20:00',
