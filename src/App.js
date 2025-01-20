@@ -28,6 +28,15 @@ const App = () => {
       missed: ['Conor', 'Greg', 'Simon'],
       notes: 'Cold',
     },
+    {
+      id: 3,
+      date: 'January 18, 2025',
+      opponent: 'Kilmarnock',
+      result: 'Won 2-1',
+      attendees: ['Ben', 'Calum', 'Liam', 'Paddy', 'Sam', 'John', 'Conor', 'Greg'],
+      missed: ['Simon'],
+      notes: 'Cold',
+    },
   ];
 
   const futureGames = [
