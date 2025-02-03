@@ -37,48 +37,64 @@ const App = () => {
       missed: ['Simon'],
       notes: 'Dry Jan gimps',
     },
+    {
+      id: 4,
+      date: 'January 22, 2025',
+      opponent: 'Young Boys',
+      result: 'Won 1-0',
+      attendees: ['Ben', 'Calum', 'Liam', 'Paddy', 'Sam', 'John', 'Conor', 'Greg', 'Simon'],
+      missed: [],
+      notes: 'Full house baby',
+    },
   ];
 
   const futureGames = [
   
-    {
-      id: 2,
-      date: '2025-01-22 20:00',
-      opponent: 'Young Boys',
-      details: 'UEFA Champions League - League Stage, Kick-off 20:00',
-    },
+   
     {
       id: 3,
-      date: '2025-01-25 15:00',
+      date: '2025-02-05 19:45',
       opponent: 'Dundee',
-      details: 'Scottish Premiership - 1st Phase, Kick-off 15:00',
+      details: 'Scottish Premiership - 1st Phase, Kick-off 19:45',
     },
     {
       id: 4,
+      date: '2025-02-10 17:30',
+      opponent: 'Raith',
+      details: 'Scottish Cup, Kick-off 17:30',
+    },
+    {
+      id: 5,
+      date: '2025-02-10 20:00',
+      opponent: 'Bayern',
+      details: 'Champion League Knockouts, Kick-off 20:00',
+    },
+    {
+      id: 6,
       date: '2025-02-10 15:00',
       opponent: 'Dundee United',
       details: 'Scottish Premiership - 1st Phase, Kick-off 15:00',
     },
     {
-      id: 5,
+      id: 7,
       date: '2025-02-25 19:45',
       opponent: 'Aberdeen',
       details: 'Scottish Premiership - 1st Phase, Kick-off 19:45',
     },
     {
-      id: 6,
+      id: 8,
       date: '2025-03-15 15:00',
       opponent: 'Rangers',
       details: 'Scottish Premiership - 1st Phase, Kick-off 15:00',
     },
     {
-      id: 7,
+      id: 9,
       date: '2025-03-29 15:00',
       opponent: 'Hearts',
       details: 'Scottish Premiership - 1st Phase, Kick-off 15:00',
     },
     {
-      id: 8,
+      id: 10,
       date: '2025-04-13 15:00',
       opponent: 'Kilmarnock',
       details: 'Scottish Premiership - 1st Phase, Kick-off 15:00',
