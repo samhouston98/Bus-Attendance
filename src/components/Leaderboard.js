@@ -1,10 +1,9 @@
 import React from 'react';
 
 const Leaderboard = ({ pastGames }) => {
-  // Ensure `pastGames` is a defined array
   const games = pastGames || [];
 
-  // Get a unique list of names from `attendees` in past games
+  // Get a unique list of names from attendees in past games
   const allNames = Array.from(
     new Set(games.flatMap((game) => game.attendees || []))
   );
@@ -37,7 +36,8 @@ const Leaderboard = ({ pastGames }) => {
                 {new Date(game.date).toLocaleDateString('en-GB', {
                   month: 'short',
                   day: 'numeric',
-                })}
+                })} <br />
+                vs {game.opponent}
               </th>
             ))}
             <th>Games Attended</th>
@@ -64,3 +64,4 @@ const Leaderboard = ({ pastGames }) => {
 };
 
 export default Leaderboard;
+
