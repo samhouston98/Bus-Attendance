@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Leaderboard from './components/Leaderboard';
 import Schedule from './components/Schedule';
 import Stats from './components/Stats';
+import Flem from './components/Flem';
 import './App.css'; // Ensure CSS is imported
 
 const App = () => {
@@ -108,21 +109,10 @@ const App = () => {
           ☰
         </button>
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <li>
-            <Link to="/" onClick={() => setMenuOpen(false)}>
-              Leaderboard
-            </Link>
-          </li>
-          <li>
-            <Link to="/fixtures" onClick={() => setMenuOpen(false)}>
-              Fixtures
-            </Link>
-          </li>
-          <li>
-            <Link to="/stats" onClick={() => setMenuOpen(false)}>
-              Stats
-            </Link>
-          </li>
+          <li><Link to="/" onClick={() => setMenuOpen(false)}>Leaderboard</Link></li>
+          <li><Link to="/fixtures" onClick={() => setMenuOpen(false)}>Fixtures</Link></li>
+          <li><Link to="/stats" onClick={() => setMenuOpen(false)}>Stats</Link></li>
+          <li><Link to="/flem" onClick={() => setMenuOpen(false)}>Flem</Link></li> {/* New page */}
         </ul>
       </nav>
       <main>
@@ -133,6 +123,7 @@ const App = () => {
             element={<Schedule pastGames={pastGames} futureGames={futureGames} />}
           />
           <Route path="/stats" element={<Stats pastGames={pastGames} />} />
+          <Route path="/flem" element={<Flem />} /> {/* New page */}
         </Routes>
       </main>
     </Router>
