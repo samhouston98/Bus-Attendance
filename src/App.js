@@ -47,34 +47,47 @@ const App = () => {
       missed: [],
       notes: 'Full house baby',
     },
+    {
+      id: 5,
+      date: 'February 05, 2025',
+      opponent: 'Dundee',
+      result: 'Won 6-0',
+      attendees: ['Ben', 'Calum', 'Liam', 'Paddy', 'Sam', 'Conor', 'Simon'],
+      missed: ['Greg', 'John'],
+      notes: 'Daddy Daizen Double',
+    },
+    {
+      id: 6,
+      date: 'February 08, 2025',
+      opponent: 'Raith',
+      result: 'Won 5-0',
+      attendees: ['Ben', 'Calum', 'Liam', 'Paddy', 'Sam', 'Conor', 'Greg',],
+      missed: [ 'John','Simon'],
+      notes: 'Daddy Daizen Double',
+    },
   ];
 
   const futureGames = [
   
    
-    {
-      id: 3,
-      date: '2025-02-05 19:45',
-      opponent: 'Dundee',
-      details: 'Scottish Premiership - 1st Phase, Kick-off 19:45',
-    },
-    {
-      id: 4,
-      date: '2025-02-10 17:30',
-      opponent: 'Raith',
-      details: 'Scottish Cup, Kick-off 17:30',
-    },
+ 
     {
       id: 5,
-      date: '2025-02-10 20:00',
+      date: '2025-02-12 20:00',
       opponent: 'Bayern',
       details: 'Champion League Knockouts, Kick-off 20:00',
     },
     {
       id: 6,
-      date: '2025-02-10 15:00',
+      date: '2025-02-15 15:00',
       opponent: 'Dundee United',
       details: 'Scottish Premiership - 1st Phase, Kick-off 15:00',
+    },
+    {
+      id: 7,
+      date: '2025-02-22 15:00',
+      opponent: 'Hibs',
+      details: 'Scottish Premiership - 1st Phase, Kick-off 12:30',
     },
     {
       id: 7,
