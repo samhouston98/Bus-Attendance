@@ -63,7 +63,25 @@ const App = () => {
       result: 'Won 5-0',
       attendees: ['Ben', 'Calum', 'Liam', 'Paddy', 'Sam', 'Conor', 'Greg',],
       missed: [ 'John','Simon'],
-      notes: 'Daddy Daizen Double',
+      notes: 'Daddy Daizen Treble',
+    },
+    {
+      id: 7,
+      date: 'February 12, 2025',
+      opponent: 'Bayern',
+      result: 'Lost 1-2',
+      attendees: ['Ben', 'Calum', 'Liam', 'Paddy', 'Sam', 'Conor', 'Greg','John','Simon'],
+      missed: [ ],
+      notes: 'Fag',
+    },
+    {
+      id: 8,
+      date: 'February 15, 2025',
+      opponent: 'Dundee Utd',
+      result: 'Won 3-0',
+      attendees: ['Ben', 'Calum', 'Liam', 'Paddy', 'Sam', 'Conor', 'Greg'],
+      missed: ['John','Simon' ],
+      notes: 'Simon had an exam',
     },
   ];
 
@@ -71,12 +89,7 @@ const App = () => {
   
    
  
-    {
-      id: 5,
-      date: '2025-02-12 20:00',
-      opponent: 'Bayern',
-      details: 'Champion League Knockouts, Kick-off 20:00',
-    },
+
     {
       id: 6,
       date: '2025-02-15 15:00',
